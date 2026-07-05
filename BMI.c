@@ -23,7 +23,18 @@ int main(int argc, char *argv[]) {
 	printf("\n     18.5-24.9    |       Normal");
 	printf("\n     25.0-29.9    |      Sobre peso");
 	printf("\n      >= 30       |       Obesidad");
+
+	printf("\n\nSu condicion es: ");
+
+if (BMI < 18.5) {
+    printf("Bajo peso");}
+else if (BMI < 25.0) {
+    printf("Normal");}
+else if (BMI < 30.0) {
+    printf("Sobrepeso");}
+else {
+    printf("Obesidad");}
 	
-	return 0;
+return 0;
 }
 
